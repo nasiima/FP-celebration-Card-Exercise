@@ -8,57 +8,6 @@
     <script defer src="users.js"></script>
    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  
-   
-    <h1>Hello :) welcome to the digital postcard</h1>
- 
- 
- 
-
- <section class="inputBox">
-   
-    
-  
- 
-   <form action=""  method="post" name="myFirstForm" id="inputBox">
- 
- <ul>
-         
-<h2>Choose event</h2>
- <label for="Anniversary">Anniversary</label>
-      <input type="radio" name="event" id="Anniversaryy" class="radioBTN">
-      
-      <label for="Valentines">Valentines</label>
-      <input type="radio" name="event" id="Valentiness" class="radioBTN">
-       
-      <label for="Birthday">Birthday</label>
-      <input type="radio" name="event" id="Birthdayy" class="radioBTN">
-
-</ul>
-
-
-       <label for="yourName">Name</label>
-      <textarea name="yourName" id="name" cols="10" rows="5" placeholder="Name"></textarea>
-      
-      <label for="yourMessage">Message</label>
-      <textarea name="yourMessage" id="Message" cols="30" rows="5" placeholder="Your Message"></textarea>
-        
-        
-      <button type="submit"  onclick="showHide()" id="submit">Submit</button>
-        
-        
-      </form>
-   
- </section>
-
-      
-      
-      <div id="myDIV" class="2" style="display:none">
-      <h3 id="eventGreeting"> </h3> 
-          <h4></h4>
-          <p></p>
-       
-      </div>
+<body onload="javascript:createForm()">
  </body> 
 </html>
